@@ -1,0 +1,203 @@
+#wholesite{
+	width: 100%;
+	height: 100%;
+	/*background-color: #BFC5C7;*/
+	/*background-color: #e0dfdb;*/
+	margin: -9px;
+	
+		
+}
+#bodybg{
+	background-image: url("old3.jpg");
+	background-size: 100% 102%;
+	background-repeat: no-repeat;
+}
+#recipebody{
+	width: 600px;
+	height: 800px;
+	margin: 0px;
+	border: 1px solid black;
+	background-size: 600px 800px;
+	background-image: url("oldpaper.jpg");
+	background-repeat: no-repeat;
+}
+/*body{
+	overflow:hidden;
+}*/
+#logosizer{
+	width: 100%;
+	height: auto;
+}
+#bodypic{
+	width: 60%;
+	height: auto;
+	margin: -3% -3% .5% 2%;
+	float: right;
+}
+#headerwrap{
+	color: #454343; /* Graphite gray */
+	width: 68%;
+	border: solid black 1px;
+	margin: auto;
+	height: 250px;
+	margin-left: 2%;
+	margin-top: 2%;
+	float: left;
+	text-align: center;
+	font-family: "mail";
+	font-size: 2.75vw;
+	word-spacing: .1em;
+	letter-spacing: .08em;
+	
+	
+}
+#aside{
+	color: #454343;
+	width: 14%;
+	border: solid #ED1C24 2px;
+	float: left;
+	height: 40%;
+	margin: 1% 1% .1% 9%;
+	padding-top: .1%;
+	padding-right: .5%;
+	clear: both;
+	font-size: 1.5vw;
+	line-height: 250%;
+	text-align: left;
+	
+}
+#footer{
+	width: 90.5%;
+	border: solid black 1px;
+	margin: auto;
+	height: 55px;
+	clear: both;
+	padding-bottom: 5px;
+	color: black;
+	text-shadow: .5px .5px 2px #ED1C24;
+	/*color: #454343;
+	/*text-shadow: 2px 2px 1px black;*/
+	font-size: 1vw;
+
+}
+#maincontent{
+	color: #454343;
+	/*color: #ECE5DB;*/
+	margin-left: 1%;
+	border: solid #919FAB 3px;
+	height: 475px;
+	float: left;
+	margin-top: -4%;;
+	margin-bottom: 1.2%;
+	font-size: 1.2vw;
+	line-height: 150%;
+	padding: 2%;
+	max-width: 65%;
+}
+#logo{
+	width: 20%;
+	height: 20%;
+	margin-left: 5%;
+	margin-top: 2%;
+	/*border: solid black 1px;*/
+	float: left;
+}
+li{
+	list-style-image: url("hopsgreen.png");
+	
+	
+}
+.socials{
+	display:inline;
+	float: right;
+	padding-left: .3%;
+	padding-right: .3%;
+	width: 3.5%;
+	height: auto;
+}
+header h1{
+	margin-top: -2%;
+	text-shadow: 2px 2px 5px #ED1C24;
+}
+h3{
+	padding-left: 4%;
+	padding-right: 4%;
+	font-size: 2.2vw;
+}
+h4{
+	margin-top: -1.5%;
+}
+h5{
+	float: left;
+	padding-left: 10%;
+	padding-right: 2%;
+}
+footer ul li{
+	display: inline;
+	float: left;
+	padding-right: 4%;
+	
+}
+footer a{
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: #454343;
+	position: relative;
+	top: -8px;
+	
+}
+aside a:hover{
+	text-shadow: 2px 2px 5px #ED1C24;
+	margin-bottom: .1%;
+	position: relative;
+	top: -10px;
+	/*bottom: -10px;*/
+}
+footer a:hover{
+	text-shadow: 2px 2px 5px #ED1C24;
+	margin-bottom: .1%;
+	position: relative;
+	top: -10px;
+	/*bottom: -10px;*/
+}
+topsmallnav{
+	padding-right: 2%;
+}
+#kicker{
+	padding-left: 13%;
+	padding-right: 20%;
+}
+#additionalnav{
+	width: 40%;
+	float: left;
+	margin-top: -.8%;
+}
+@font-face{
+	font-family: "jd";
+	src: url("fonts/jd.ttf");
+	src: url("fonts/jd.eof");
+	src: url("fonts/jd.woff");
+
+}
+@font-face{
+	font-family: "mail";
+	src: url("fonts/mailartrubberstamp-regular.otf");
+	src: url("fonts/mailartrubberstamp-regular.eot");
+	src: url("fonts/mailartrubberstamp-regular.woff");
+}
+.mailfont{/*Mail Art font properties*/
+	font-family: "mail";
+	font-size: 20px;
+	word-spacing: .1em;
+	letter-spacing: .08em;
+	line-height: 180%;
+	color: #454343; /* Graphite gray */
+	
+}
+.jdfont{ /* JD Font */
+	font-family: "jd";
+	font-size: 25px;
+	line-height: 150%;
+	color: #454343; /* Graphite gray */
